@@ -1,0 +1,127 @@
+[{
+        "name": "WordPress",
+        "keywords": ["wp-content", "wp-includes", "wordpress", "wp-json"],
+        "headers": ["x-powered-by: wordpress", "link: <https://example.com/wp-json/>; rel=\"https://api.w.org\""],
+        "meta_tags": ["generator: wordpress"],
+        "paths": ["/wp-login.php", "/wp-admin/", "/readme.html", "/xmlrpc.php"]
+    },
+    {
+        "name": "Joomla",
+        "keywords": ["joomla", "joomla! is free software", "com_joomla"],
+        "headers": ["x-powered-by: joomla"],
+        "meta_tags": ["generator: joomla", "description: joomla"],
+        "paths": ["/administrator/", "/joomla.xml", "/templates/system/css/general.css"]
+    },
+    {
+        "name": "Drupal",
+        "keywords": ["drupal", "drupal.settings", "drupal_add_"],
+        "headers": ["x-generator: drupal", "x-drupal-cache:"],
+        "meta_tags": ["generator: drupal", "name: drupal"],
+        "paths": ["/user/login", "/CHANGELOG.txt", "/core/COPYRIGHT.txt"]
+    },
+    {
+        "name": "Nginx",
+        "headers": ["server: nginx"],
+        "keywords": ["nginx/", "welcome to nginx"],
+        "paths": ["/nginx-status"]
+    },
+    {
+        "name": "Apache",
+        "headers": ["server: apache", "server: apache/"],
+        "keywords": ["apache http server", "apache/2."],
+        "paths": ["/server-status", "/server-info"]
+    },
+    {
+        "name": "IIS",
+        "headers": ["server: microsoft-iis", "x-powered-by: asp.net"],
+        "keywords": ["internet information services", "iis welcome page"],
+        "paths": ["/iisstart.htm"]
+    },
+    {
+        "name": "PHPMyAdmin",
+        "keywords": ["phpmyadmin", "pma_"],
+        "headers": ["x-powered-by: phpmyadmin"],
+        "paths": ["/phpmyadmin/", "/pma/", "/dbadmin/"]
+    },
+    {
+        "name": "Tomcat",
+        "keywords": ["apache tomcat", "tomcat"],
+        "headers": ["server: apache-coyote/", "x-powered-by: servlet/"],
+        "paths": ["/manager/html", "/host-manager/html"]
+    },
+    {
+        "name": "Jenkins",
+        "keywords": ["jenkins", "hudson"],
+        "headers": ["x-hudson:", "x-jenkins:"],
+        "paths": ["/jenkins/", "/hudson/"]
+    },
+    {
+        "name": "GitLab",
+        "keywords": ["gitlab", "gon.getStore"],
+        "headers": ["x-gitlab-:", "x-request-id:"],
+        "paths": ["/users/sign_in", "/assets/gitlab"]
+    },
+    {
+        "name": "Magento",
+        "keywords": ["magento", "mage.cookies"],
+        "headers": ["x-magento-"],
+        "paths": ["/magento_version", "/errors/default/css/"]
+    },
+    {
+        "name": "Shopify",
+        "keywords": ["shopify.shop", "shopify.theme"],
+        "headers": ["x-shopid:", "x-shopify-"],
+        "paths": ["/admin", "/cart.js"]
+    },
+    {
+        "name": "RabbitMQ",
+        "keywords": ["rabbitmq", "rmq_server_version"],
+        "paths": ["/api/", "/cli/"]
+    },
+    {
+        "name": "Redis",
+        "keywords": ["redis", "redis_version"],
+        "paths": ["/redis/"]
+    },
+    {
+        "name": "Elasticsearch",
+        "keywords": ["elasticsearch", "lucene_version"],
+        "headers": ["x-elastic-product: elasticsearch"],
+        "paths": ["/_cluster/health", "/_cat/"]
+    },
+    {
+        "name": "Grafana",
+        "keywords": ["grafana", "grafana-app"],
+        "headers": ["x-grafana-"],
+        "paths": ["/grafana/", "/login"]
+    },
+    {
+        "name": "Kibana",
+        "keywords": ["kibana", "kbn-injected-metadata"],
+        "headers": ["kbn-name:", "kbn-version:"],
+        "paths": ["/app/kibana", "/status"]
+    },
+    {
+        "name": "Nextcloud",
+        "keywords": ["nextcloud", "oc_appconfig"],
+        "headers": ["x-nextcloud-"],
+        "paths": ["/login", "/core/css/"]
+    },
+    {
+        "name": "Django",
+        "keywords": ["django", "csrfmiddlewaretoken"],
+        "headers": ["x-frame-options: deny"],
+        "paths": ["/admin/", "/static/admin/"]
+    },
+    {
+        "name": "Flask",
+        "keywords": ["flask", "werkzeug/"],
+        "headers": ["server: werkzeug/"]
+    },
+    {
+        "name": "Laravel",
+        "keywords": ["laravel", "csrf-token"],
+        "headers": ["x-powered-by: laravel"],
+        "paths": ["/login", "/vendor/"]
+    }
+]
